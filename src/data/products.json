@@ -1,0 +1,23 @@
+[
+	{
+		"id": "516244066",
+		"title": "Book",
+		"imageUrl": "https://via.placeholder.com/200",
+		"price": "12.99",
+		"description": "A awesome book!"
+	},
+	{
+		"id": "133238473",
+		"title": "Book 2",
+		"imageUrl": "https://via.placeholder.com/200",
+		"price": "15.99",
+		"description": "An another awesome book!"
+	},
+	{
+		"id": "588761170",
+		"title": "Book 3",
+		"imageUrl": "https://via.placeholder.com/200",
+		"price": "66",
+		"description": "An another awesome book!"
+	}
+]

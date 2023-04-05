@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"checkJs": false,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"target": "es2020",
+		"module": "commonJS"
+	},
+	"exclude": [
+		"dist",
+		"node_modules",
+		"build",
+		".vscode",
+		"coverage",
+		".npm",
+		".yarn",
+		".nuxt",
+		"jspm_packages",
+		"tmp",
+		"temp",
+		"bower_components"
+	],
+	"typeAcquisition": {
+		"enable": true,
+		"include": ["node"]
+	}
+}

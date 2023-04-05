@@ -1,0 +1,53 @@
+{
+	"name": "nodejs-core",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"engines": {
+		"node": "18.0.0"
+	},
+	"scripts": {
+		"test": "mocha --timeout 5000",
+		"start": "NODE_ENV=production node app.js",
+		"start-server": "node app.js",
+		"start:dev": "nodemon app.js"
+	},
+	"author": "Matthieu Clay (matthieuclay.me)",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.15",
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0",
+		"sinon": "^13.0.2"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.0",
+		"compression": "^1.7.4",
+		"connect-flash": "^0.1.1",
+		"connect-mongodb-session": "^3.1.1",
+		"csurf": "^1.11.0",
+		"dotenv": "^16.0.0",
+		"ejs": "^3.1.6",
+		"express": "^4.17.3",
+		"express-handlebars": "^6.0.5",
+		"express-session": "^1.17.2",
+		"express-validator": "^6.14.0",
+		"helmet": "^5.0.2",
+		"mongodb": "^4.5.0",
+		"mongoose": "^6.3.1",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.4",
+		"mysql2": "^2.3.3",
+		"nodemailer": "^6.7.3",
+		"pdfkit": "^0.13.0",
+		"pug": "^3.0.2",
+		"sequelize": "^6.19.0",
+		"stripe": "^8.219.0",
+		"express-graphql": "^0.12.0",
+		"graphql": "^16.4.0",
+		"jsonwebtoken": "^8.5.1",
+		"socket.io": "^4.5.0",
+		"validator": "^13.7.0"
+	}
+}
